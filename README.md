@@ -66,7 +66,7 @@ Yomiden is a fork of **[Mihon](https://github.com/mihonapp/mihon)** that adds no
 | OCR (manga narration) | Google ML Kit Text Recognition v2, on-device (Latin, Japanese, Korean, Chinese models) |
 | Audio | Media3 `MediaSessionService` (background playback, lock screen, Bluetooth) |
 | SDK / ABI | minSdk 26; `arm64-v8a` primary |
-| App ID | `com.kagensystems.yomiden` (replaces `app.mihon`) |
+| App ID | `com.sirjohnyd.yomiden` (replaces `app.mihon`) |
 
 ---
 
@@ -264,7 +264,7 @@ Behavior when continuing:
 ## 9. Repository layout (target)
 ```
 yomiden/
-├── app/                  # Mihon app module → com.kagensystems.yomiden
+├── app/                  # Mihon app module → com.sirjohnyd.yomiden
 ├── core/ data/ domain/ presentation-*/ source-api/ ...   # Mihon modules
 ├── novel/
 │   ├── reader/           # novel reader UI
@@ -302,7 +302,7 @@ See **[LICENSING.md](LICENSING.md)**. Short version: this fork is Apache-2.0 tod
 ## 12. Roadmap
 | Phase | Deliverable |
 |---|---|
-| **0 — Rebrand** | App ID `com.kagensystems.yomiden`, name/icon, licensing files, CI producing a debug APK |
+| **0 — Rebrand** | App ID `com.sirjohnyd.yomiden`, name/icon, licensing files, CI producing a debug APK |
 | **1 — Formats & library** | `content_type`, `format`, badges, filter chips, details-screen format chip |
 | **2 — Novels** | Novel reader, novel chapter storage, LNReader plugin host |
 | **3 — Series links** | `series_link`, merged library cards with stacked badges, details format switcher |
@@ -322,4 +322,4 @@ See **[LICENSING.md](LICENSING.md)**. Short version: this fork is Apache-2.0 tod
 
 ---
 
-*Yomiden is a Kagen Systems project, based on Mihon. Not affiliated with Mihon, LNReader, Lightnovel Crawler, or any content provider.*
+*Yomiden is a SirJohnyD project, based on Mihon. Not affiliated with Mihon, LNReader, Lightnovel Crawler, or any content provider.*
